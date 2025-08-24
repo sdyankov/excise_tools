@@ -1,7 +1,4 @@
 {
-  "excise_tools.bundle.css": [
-    "public/css/excise_tools.css"
-  ],
   "excise_tools.bundle.js": [
     "public/js/excise_tools.bundle.js"
   ]
