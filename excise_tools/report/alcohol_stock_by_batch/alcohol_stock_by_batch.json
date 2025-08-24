@@ -1,0 +1,12 @@
+{
+  "doctype": "Report",
+  "name": "Alcohol Stock by Batch (Auditor)",
+  "is_standard": 1,
+  "ref_doctype": "Item",
+  "report_type": "Script Report",
+  "module": "Excise Tools",
+  "roles": [
+    { "role": "System Manager" },
+    { "role": "Customs Auditor" }
+  ]
+}

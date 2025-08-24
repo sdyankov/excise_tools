@@ -1,0 +1,6 @@
+app_name = "excise_tools"
+app_title = "Excise Tools"
+app_publisher = "Premitium"
+app_description = "Excise duty and customs tools for ERPNext"
+app_email = "info@example.com"
+app_license = "MIT"
