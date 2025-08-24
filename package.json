@@ -1,0 +1,9 @@
+{
+  "name": "excise_tools",
+  "version": "0.0.1",
+  "private": true,
+  "frappe": {
+    "css": ["excise_tools/public/css/excise_tools.css"],
+    "js":  ["excise_tools/public/js/excise_tools.bundle.js"]
+  }
+}
