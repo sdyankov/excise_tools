@@ -1,0 +1,4 @@
+include MANIFEST.in
+include requirements.txt
+recursive-include excise_tools *.json *.md *.py *.js *.css *.txt
+recursive-exclude * __pycache__
