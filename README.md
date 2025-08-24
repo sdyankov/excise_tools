@@ -1,1 +1,1 @@
-# excise_tools\n\nExcise duty & customs tools for ERPNext (Frappe app).\n
+# excise_tools
