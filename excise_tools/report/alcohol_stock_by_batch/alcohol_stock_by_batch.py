@@ -1,17 +1,11 @@
 import frappe
 from frappe.utils import flt
 
-# Custom Item fieldnames provided by Stefan:
 ITEM_VOLUME_FIELD = "custom_volume"
 ITEM_UOM_FIELD = "custom_unit_of_measurement"
 ITEM_TARIFF_FIELD = "custom_tariff_number"
 
 def _to_liters_per_unit(volume_value):
-    """
-    custom_volume is a Select; often strings like '500', '330' (ml).
-    Convert to float. If it looks like milliliters (>10), divide by 1000.
-    If already liters like '0.5', it stays 0.5.
-    """
     if volume_value is None:
         return 0.0
     try:
