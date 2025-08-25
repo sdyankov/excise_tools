@@ -1,0 +1,8 @@
+{
+  "css/excise_tools.min.css": [
+    "public/css/excise_tools.css"
+  ],
+  "js/excise_tools.min.js": [
+    "public/js/excise_tools.bundle.js"
+  ]
+}
