@@ -1,1 +1,1 @@
-include MANIFEST.in
+recursive-include excise_tools *
